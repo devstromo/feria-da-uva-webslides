@@ -13,13 +13,12 @@
 
     <link rel="stylesheet" href="./static/css/webslides.css" />
     <link rel="stylesheet" href="./static/css/svg-icons.css" />
-    <link rel="stylesheet" href="./static/css/webslides.css" />
   </head>
   <body>
     <main role="main">
       <article id="webslides">
         <!-- Slide 1: Introdução -->
-        <section>
+        <section class="text-apple">
           <h1>Festa da Uva</h1>
           <p>
             Uma celebração da cultura e da colheita de uvas em Caxias do Sul.
@@ -83,6 +82,11 @@
     </main>
 
     <script src="./static/js/webslides.min.js"></script>
-    <script src="./static/js/svg-icons.js"></script>
+
+    <script>
+      window.ws = new WebSlides();
+    </script>
+
+    <script defer src="./static/js/svg-icons.js"></script>
   </body>
 </html>
