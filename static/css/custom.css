@@ -18,3 +18,16 @@ body {
   background-color: rgba(180, 0, 204, 0.5);
   color: #fff;
 }
+
+.text-body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.slide-bottom {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
