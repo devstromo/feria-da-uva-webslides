@@ -13,3 +13,8 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+#webslides:hover #navigation a:hover {
+  background-color: rgba(180, 0, 204, 0.5);
+  color: #fff;
+}
