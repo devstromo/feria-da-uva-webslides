@@ -29,15 +29,35 @@
     <link rel="stylesheet" href="./static/css/custom.css" />
   </head>
   <body>
-    <audio id="background-audio" src="./static/sounds/arrivederci-roma.mp3" loop autoplay hidden></audio>
-
+    <audio
+      id="background-audio"
+      src="./static/sounds/arrivederci-roma.mp3"
+      loop
+      autoplay
+      hidden
+    ></audio>
+    <span class="text-quote-custom music-link">
+      <a
+        href="https://www.youtube.com/watch?v=rHhDc8a7FCM"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="icon-link"
+      >
+        <svg class="fa-music floating-icon">
+          <use xlink:href="#fa-music"></use>
+        </svg>
+        Arrivederci Roma
+      </a>
+    </span>
     <main role="main">
       <article id="webslides">
         <!-- Slide 0: Introdução -->
         <section>
           <div class="wrap">
             <div class="content-center">
-              <figure class="animate__bounceIn animation-duration-1s flex-content">
+              <figure
+                class="animate__bounceIn animation-duration-1s flex-content"
+              >
                 <img
                   src="./static/images/festa-da-uva/logo.png"
                   alt="Festa da Uva Logo"
@@ -202,12 +222,13 @@
           </div>
         </section>
 
-
         <!-- Slide 8: Conclusões -->
         <section>
           <div class="wrap">
             <div class="content-center">
-              <figure class="animate__bounceIn animation-duration-1s flex-content">
+              <figure
+                class="animate__bounceIn animation-duration-1s flex-content"
+              >
                 <img
                   src="./static/images/festa-da-uva/logo.png"
                   alt="Festa da Uva Logo"
@@ -224,6 +245,14 @@
 
     <script>
       window.ws = new WebSlides();
+    </script>
+
+    <!-- Script para controlar el volumen -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var audio = document.getElementById("background-audio");
+        audio.volume = 0.3;
+      });
     </script>
 
     <script defer src="./static/js/svg-icons.js"></script>

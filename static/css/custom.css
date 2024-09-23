@@ -76,3 +76,38 @@ body {
   background: rgba(0, 0, 0, 0.5);
   pointer-events: none;
 }
+
+.icon-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+}
+
+.fa-music {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+  margin-right: 8px;
+}
+
+.music-link {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 1000;
+}
+
+.floating-icon {
+  animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
