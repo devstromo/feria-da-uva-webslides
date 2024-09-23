@@ -26,6 +26,14 @@ body {
   font-style: normal;
 }
 
+.text-quote-custom {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 9pt;
+}
+
 .slide-bottom {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
