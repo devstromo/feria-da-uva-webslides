@@ -111,3 +111,8 @@ body {
     transform: translateY(-4px);
   }
 }
+
+.celebracao-text {
+  margin-left: 10vh;
+  margin-bottom: 10vh;
+}

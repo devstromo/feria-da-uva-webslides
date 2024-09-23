@@ -70,16 +70,28 @@
 
         <!-- Slide 1: Introdução -->
         <section
-          class="animate__animated animate__fadeIn animate__faster slide-bottom"
+          class="fullscreen animate__animated animate__fadeIn animate__faster slide-bottom"
         >
-          <div class="wrap">
-            <div class="content-left">
-              <h1>Festa da Uva</h1>
-              <p class="text-body">
-                Uma celebração da cultura e da colheita de uvas em Caxias do
-                Sul.
-              </p>
-            </div>
+          <div class="embed">
+            <video
+              loop
+              muted
+              autoplay
+              poster="/static/images/festa-da-uva/logo.png"
+            >
+              <source
+                src="/static/images/festa-da-uva/festa-da-uva-celebracao-do-cultura.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay"></div>
+          </div>
+          <div class="celebracao-text content-left">
+            <h1>Festa da Uva</h1>
+            <p class="text-body">
+              Uma celebração da cultura e da colheita de uvas em Caxias do Sul.
+            </p>
           </div>
         </section>
 
