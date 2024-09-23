@@ -39,3 +39,8 @@ body {
   -ms-flex-pack: end;
   justify-content: flex-end;
 }
+
+.imag-wrap {
+  width: 60%;
+  height: auto;
+}
